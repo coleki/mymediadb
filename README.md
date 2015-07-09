@@ -12,6 +12,7 @@ Core Features
 - Call IMDB API to fill in data about added film media
 - Similar API calls for data on books, other media?
 - Caching feature to reduce server load
+- Free version w/ ads, paid version w/o ads
 
 Wishlist / Version 2 Features
 - Barcode / SKU / cover scanner (a la Google Goggles) to identify if you already own an item in a store
