@@ -4,7 +4,7 @@ Planned Features / Specs
 ------------------------
 
 Critical Features
-- Website and mobile apps
+- Website and mobile apps (mobile-first design, material design)
 - Database to track what media you personally own (movies, TV shows, music, books, other)
 
 Core Features
