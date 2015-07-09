@@ -19,6 +19,6 @@ Wishlist / Version 2 Features
 
 Technologies / Solutions
 ------------------------
-AWS / similar cloud storage and computing
-LAMP stack
-Javascript, jQuery
+- AWS / similar cloud storage and computing
+- LAMP stack
+- Javascript, jQuery
