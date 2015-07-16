@@ -21,5 +21,6 @@ Wishlist / Version 2 Features
 Technologies / Solutions
 ------------------------
 - AWS / similar cloud storage and computing
-- LAMP stack
-- Javascript, jQuery
+- node.js
+- express.js
+- bootstrap
