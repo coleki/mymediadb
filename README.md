@@ -23,4 +23,4 @@ Technologies / Solutions
 - AWS / similar cloud storage and computing
 - node.js
 - express.js
-- bootstrap
+- bootstrap (http://getbootstrap.com/getting-started/#download-npm)
