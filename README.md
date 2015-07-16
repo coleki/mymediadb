@@ -15,7 +15,7 @@ Core Features
 - Free version w/ ads, paid version w/o ads
 
 Wishlist / Version 2 Features
-- Barcode / SKU / cover scanner (a la Google Goggles) to identify if you already own an item in a store
+- Barcode / SKU / cover scanner (a la Google Goggles) to identify if you already own an item in a store (http://notanothercodeblog.blogspot.com/2011/02/google-goggles-api.html)
 - Lending Library feature to know who you've lent something to
 
 Technologies / Solutions
