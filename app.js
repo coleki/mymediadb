@@ -1,5 +1,4 @@
 var express = require('express');
-var mongoose = require('mongoose');
 var path = require('path');
 var index = require('./routes/index');
 var app = express();
@@ -22,30 +21,4 @@ module.exports = app;
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
   console.log('Listening on ' + port);
-});
-
-//Mongoose test stuff
-mongoose.connect('mongodb://localhost/test');
-
-var productSchema = new mongoose.Schema({
-  prdId: String,
-  name: { type: String }, 
-  price: Number
-})
-
-var Product = mongoose.model('Product', productSchema);
-
-app.get('/add', function(req,res) {
-    res.render('addProduct.ejs');
-});
-
-app.post('/new', function(req, res){
-  new Product({
-    prdId : req.body.ProductId,
-    name  : req.body.ProductName,
-    price   : req.body.ProductPrice
-  }).save(function(err, prd){
-    if(err) res.json(err);
-    else    res.send("Product Successfully Added !");
-  });
 });

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-	"start": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -14,14 +14,12 @@
     "database"
   ],
   "dependencies": {
-	"express": "*",
-	"mongodb": "*",
-	"mongoose": "*",
-	"path": "*",
-	"request": "*",
-	"ejs": "*",
-	"nodemon": "*",
-	"bootstrap": "*"
+    "bootstrap": "*",
+    "ejs": "*",
+    "express": "*",
+    "nodemon": "*",
+    "path": "*",
+    "request": "*"
   },
   "author": "Kip Coleman",
   "license": "ISC",
