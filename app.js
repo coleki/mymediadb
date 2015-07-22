@@ -1,6 +1,7 @@
 var express = require('express');
 var path = require('path');
 var index = require('./routes/index');
+var about = require('./routes/about');
 var app = express();
 
 // serve static assets from the public directory
@@ -14,6 +15,7 @@ app.set('view engine', 'ejs');
 
 //setup routes
 app.use('/', index);
+app.use('/about', about);
 
 
 module.exports = app;
