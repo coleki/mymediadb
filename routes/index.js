@@ -19,4 +19,9 @@ router.get('/', function(req, res) {
   res.render('index', {title: 'mymediadb'});
 });
 
+router.get('/about', function(req, res) { 
+
+  res.render('about', {title: 'mymediadb'}); 
+});
+
 module.exports = router;
