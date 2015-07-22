@@ -13,15 +13,52 @@ router.get('/tweets', function(req, res) {
     })
 });
 
-/* GET home page */
+/* GET Home page */
 router.get('/', function(req, res) {
 
   res.render('index', {title: 'mymediadb'});
 });
 
+/* GET Library page */
+router.get('/library', function(req, res) { 
+
+  res.render('library', {title: 'mymediadb'}); 
+});
+
+/* GET Media Swap page */
+router.get('/mediaswap', function(req, res) { 
+
+  res.render('mediaswap', {title: 'mymediadb'}); 
+});
+
+/* GET Wishlist page */
+router.get('/wishlist', function(req, res) { 
+
+  res.render('wishlist', {title: 'mymediadb'}); 
+});
+
+/* GET Profile page */
+router.get('/profile', function(req, res) { 
+
+  res.render('profile', {title: 'mymediadb'}); 
+});
+
+/* GET Settings page */
+router.get('/settings', function(req, res) { 
+
+  res.render('settings', {title: 'mymediadb'}); 
+});
+
+/* GET About page */
 router.get('/about', function(req, res) { 
 
   res.render('about', {title: 'mymediadb'}); 
+});
+
+/* GET Login page */
+router.get('/login', function(req, res) { 
+
+  res.render('login', {title: 'mymediadb'}); 
 });
 
 module.exports = router;
