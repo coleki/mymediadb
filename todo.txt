@@ -1,0 +1,6 @@
+- Change menu so that the menu items do not bump down from same line as logo when changing screen width
+
+- Change search button so that the background image remains on mouse-over
+
+- Change code so that menu/header is located in common code - use JS? to apply class to currently selected emnu item
+
